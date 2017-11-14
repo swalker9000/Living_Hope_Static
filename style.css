@@ -110,11 +110,12 @@ h1 {
 }
 
 #inviteHeading {
-	position: absolute;
-	margin-top: 35%;
 	margin-left: 5%;
-	background-color: rgba(0,0,0,.3);
 	padding: .25em;
+} 
+
+#inviteHeading h3, h5, h2 {
+	color: #336699;
 }
 
 #sermonHeading h2, #sermonHeading h3, #sermonHeading h5 {
@@ -154,7 +155,8 @@ h5 {
 	font-size: 1em;
 	color: #336699;
 	text-align: center;
-	margin-top: 4em;
+	margin-top: 1.5em;
+	margin-left: 5%;
 }
 
 button{
@@ -162,14 +164,72 @@ button{
 	font-size: 1.3em;
 	text-transform: uppercase;
 	border: .2em solid #336699;
-	padding: .3em;
-	margin-left: 25%;
+	padding: 10px 91px;
+	margin: 4.25% 0 5% 2%;
+}
+
+.yourLocation {
+	border: none;
+	 background: rgba(47, 103, 149, 0.3);
+	 padding: 10px 95px;
+}
+
+.yourLocation a {
+	font-family: "Acherus light";
+	font-size: .75em;
 }
 
 
 
 .grid-container {
 	margin-bottom: 20px;
+}
+
+.building{
+	margin-top:4em;
+	margin-bottom:4em;
+}
+
+.welcome {
+	margin: -27em 42em auto 4em;
+    padding: 1em;
+    line-height: 4em;
+    background: rgba(47, 103, 149, 0.5);
+}
+
+.welcome h1 {
+	color: #FFB43E;
+}
+
+.welcome h3 {
+	line-height: 1.75em;
+	text-align: left;
+	text-transform: none;
+}
+
+.welcome button {
+	background: #FFB43E;
+	border: none;
+	margin: 0 1px;
+	padding: 10px 70px;
+	color: #FFF;
+}
+
+.learnAbout {
+	text-align: left;
+	font-family: "Acherus Black";
+	color: #336699;
+	margin: .5em 0 1.5em;
+}
+
+.resources h3, h5{
+	color: #FFB43E;
+}
+
+.title {
+	margin-top: -3.75em;
+	margin-bottom: 3em;
+	font-size:2em;
 }
 
 
