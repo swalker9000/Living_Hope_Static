@@ -1,0 +1,179 @@
+@font-face {
+font-family: "Acherus Black";
+src: url("css/fonts/acherus-grotesque-black/acherus-grotesque-black.eot");
+src: 
+url("css/fonts/acherus-grotesque-black/acherus-grotesque-black.woff") format("woff"),
+url("css/fonts/acherus-grotesque-black/acherus-grotesque-black.woff#filename") format("svg");
+}
+
+@font-face {
+font-family: "Acherus light";
+src: url("css/fonts/acherus-grotesque-light/acherus-grotesque-light.eot");
+src: 
+url("css/fonts/acherus-grotesque-light/acherus-grotesque-light.woff") format("woff"),
+url("css/fonts/acherus-grotesque-light/acherus-grotesque-light.woff#filename") format("svg");
+}
+
+
+header, footer {
+	width: 100%;
+	background-color: #336699;
+	color: #fff;
+	padding: .5em;
+}
+
+nav ul, footer ul {
+	margin: 1.8em 1em;
+	float: right;
+}
+
+nav li, footer li{
+	list-style: none;
+	text-transform: uppercase;
+	display: inline;
+	padding: .4em;
+}
+
+nav li a {
+	color: #fff;
+}
+
+.current {
+	border-bottom: .01em solid #fff;
+}
+
+nav li a:hover {
+	color: #fadf8d;
+}
+
+#newHere a {
+	background-color: #fff;
+	color: #336699;
+	padding: .5em;
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	letter-spacing: .02em;
+}
+
+h1 {
+	font-family: "Acherus Black";
+	font-size: 3.75em;
+}
+
+#featuredEvents h1, #featuredEvents h3{
+	background-color: rgba(0,0,0,.5);
+	padding-left: .5em;
+	padding-right: .5em;
+	margin: 0;
+}
+
+#featuredEvents h3 {
+	padding-bottom: 1.5em;
+}
+
+#featuredEvents{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#featuredEventsImg, #sermonImg, #inviteImg,{
+	float: left;
+	width: 100%;
+}
+
+#beliefImg {
+	float: left;
+}
+
+#featuredHeading {
+	position: absolute;
+	margin: 18% 8%;
+}
+
+
+#secondaryFeature, #inviteImg {
+	margin-top: 1.9em;
+}
+
+#sermonHeading {
+	position: absolute;
+	margin-top: 2em;
+	margin-left: .25%;
+}
+#beliefFeature {
+	position: absolute;
+	margin-left: 20px;
+}
+
+#inviteHeading {
+	position: absolute;
+	margin-top: 35%;
+	margin-left: 5%;
+	background-color: rgba(0,0,0,.3);
+	padding: .25em;
+}
+
+#sermonHeading h2, #sermonHeading h3, #sermonHeading h5 {
+	background-color: rgba(0,0,0,.3);
+	padding: .25em;
+	margin: 0;
+}
+#beliefHeading h2, #beliefHeading h3 {
+	background-color: rgba(0,0,0,.3);
+	padding: .25em;
+	margin: 0;
+}
+
+#sermonHeading img {
+	padding-left: 40%;
+	
+}
+
+h2{
+	line-height: .75em;
+	font-size: 1.75em;
+	font-family: 'Acherus Black';
+}
+h3{
+	line-height: .75em;
+	font-size: .9em;
+	font-family: 'Acherus Light';
+}
+h5 {
+	line-height: .75em;
+	font-size: 1.2em;
+	font-family: 'Acherus black';
+}
+
+#directions {
+	font-family: 'acherus light';
+	font-size: 1em;
+	color: #336699;
+	text-align: center;
+	margin-top: 4em;
+}
+
+button{
+	font-family: 'acherus black';
+	font-size: 1.3em;
+	text-transform: uppercase;
+	border: .2em solid #336699;
+	padding: .3em;
+	margin-left: 25%;
+}
+
+
+
+.grid-container {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
