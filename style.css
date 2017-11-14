@@ -90,31 +90,41 @@ h1 {
 }
 
 #featuredHeading {
-	position: absolute;
-	margin: 18% 8%;
+	margin: -57% 0% 40%;
 }
 
 
 #secondaryFeature, #inviteImg {
-	margin-top: 1.9em;
+	margin-top: 2em;
+	margin-left: -0.25%;
 }
 
 #sermonHeading {
-	position: absolute;
-	margin-top: 2em;
+	margin-top: -16em;
+	margin-bottom: 8.1em;
 	margin-left: .25%;
 }
+
+#sermonHeading img {
+	margin: -4em 0 4em -7.5em;
+}
+
+
 #beliefFeature {
 	position: absolute;
 	margin-left: 20px;
 }
 
 #inviteHeading {
+	margin-top:-12em;
+}
+
+#inviteHeading, .joinUs {
 	margin-left: 5%;
 	padding: .25em;
 } 
 
-#inviteHeading h3, h5, h2 {
+.joinUs h3, .joinUs h5, .joinUs h2 {
 	color: #336699;
 }
 
@@ -149,6 +159,11 @@ h5 {
 	font-size: 1.2em;
 	font-family: 'Acherus black';
 }
+
+.address {
+	margin-top: 1em;
+}
+
 
 #directions {
 	font-family: 'acherus light';
@@ -222,7 +237,7 @@ button{
 	margin: .5em 0 1.5em;
 }
 
-.resources h3, h5{
+.resources h3, .resources h5{
 	color: #FFB43E;
 }
 
