@@ -237,14 +237,30 @@ button{
 	margin: .5em 0 1.5em;
 }
 
-.resources h3, .resources h5{
+.resources h3, .resources h5, .expository h3, .expository h2, .ourBeliefs h3, .ourBeliefs h2{
 	color: #FFB43E;
+}
+
+.churchInfo {
+	margin: -1em 0em 0em 2em;
 }
 
 .title {
 	margin-top: -3.75em;
 	margin-bottom: 3em;
 	font-size:2em;
+}
+
+.ourBeliefs {
+	margin: -7em 0 6.35em;
+}
+
+.expository {
+	margin-top:-7em;
+}
+
+.map {
+	margin-top: 1em;
 }
 
 
