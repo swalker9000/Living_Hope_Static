@@ -24,9 +24,9 @@
                  <ul>
                    <li><a href="ministries.html">Ministries</a></li>
                    <li><a href="events.html">Events</a></li>
-                   <li><a href="sermons.html">Sermons</a></li>
+                   <li><a href="http://www.buzzsprout.com/134133">Sermons</a></li>
                    <li><a href="about.html">About</a></li>
-                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="https://lauraannehaywood.wufoo.com/forms/how-can-we-help-you/">Contact</a></li>
                    <li id="newHere"><a href="newhere.html">New Here</a></li>
                   </ul>
 
@@ -40,25 +40,55 @@
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div id="featuredEvents" class="large-8 cell">
-            <img id="featuredEventsImg" src="images/EventFeature.png">
-            <div id="featuredHeading">
-              <h1>Event Title</h1>
-              <h3>Event Time</h3>
+            <div class="Scroll orbit" role="region" aria-label="Featured Events" data-orbit>
+              <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                  <button class="buttonClear orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="buttonClear orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                </div>
+                <ul class="orbit-container">
+                  <li class="is-active orbit-slide">
+                    <figure class="orbit-figure">
+                      <a href="Event_NameChange.html"><img class="orbit-image" src="images/EventFeature.png" alt="Name Change Celebration"></a>
+                      <figcaption class="orbit-caption">Name Change Celebration</figcaption>
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <a href="Event_GuardingTheDeposit.html"><img class="orbit-image" src="images/EventFeature.png" alt="Sermon Series"></a>
+                      <figcaption class="orbit-caption">Guarding the Deposit</figcaption>
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <a href="Event_FamilyDays.html"><img class="orbit-image" src="images/EventFeature.png" alt="Family Day"></a>
+                      <figcaption class="orbit-caption">Family Day</figcaption>
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <a href="Event_ChristmasBoxes.html"><img class="orbit-image" src="images/EventFeature.png" alt="Christmas Boxes"></a>
+                      <figcaption class="orbit-caption">Christmas Boxes</figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+              
             </div>
         </div>
         <div id="secondaryFeature" class="large-4 cell">
           <div id="SermonFeature">
-             <img id="sermonImg" src="images/SermonFeature.png">
+             <a href="http://www.buzzsprout.com/134133"><img id="sermonImg" src="images/SermonFeature.png"></a>
              <div id="sermonHeading">
               <img src="images/audio_Icon-01.png"/>
-              <h3>October 22, 2017</h3>
-              <h2>Honoring Pastors</h2>
-              <h5>1 Timothy 5:17-25</h5>
+              
+              <h2>Sermon Replay</h2>
+              <h5>any sermon, any time</h5>
              </div> 
             
           </div>
           <div id="inviteFeature">
-            <img id="inviteImg" src="images/InviteFeature.png">
+            <a href="newhere.html"><img id="inviteImg" src="images/InviteFeature.png"></a>
             <div id="inviteHeading">
              <h3>Join us this</h3>
              <h2>Sunday</h2>
@@ -69,10 +99,9 @@
       </div>
 
 
-    <div class="grid-x grid-padding-x">
+    <div class="mapAddress grid-x grid-padding-x">
        <div id="mapAddress" class="address large-4 cell">
             <p id="directions">1080 Highland Ave.<br/> Fort Thomas, KY 41075</p>
-            <button class="yourLocation" ><a href="">YOUR LOCATION</a></button>
             <button><a href="https://maps.google.com/maps?ll=37.574589,-86.016779&z=7&t=m&hl=en-US&gl=US&mapclient=embed&saddr=Your%20location&daddr=1080%20Highland%20Ave%2C%20Fort%20Thomas%2C%20KY%2041075&dirflg=d">Directions</a></button>
        </div>
        <div id="googleMap" class="large-8 cell">
