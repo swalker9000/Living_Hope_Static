@@ -147,6 +147,14 @@ button{
 	margin-bottom: 4em;
 }
 
+.email {
+	color:#2F6795;
+}
+
+.email:hover {
+	color:#FFB43E;
+}
+
 .expository {
 	margin-top:-7em;
 }
@@ -337,7 +345,6 @@ button{
 	margin: -27em 42em auto 4em;
     padding: 1em;
     line-height: 4em;
-    background: rgba(0, 45, 92, 0.5);
 }
 
 .welcome h1 {
