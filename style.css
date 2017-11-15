@@ -70,6 +70,10 @@ nav li a {
 	border-bottom: .01em solid #fff;
 }
 
+nav li a:visited {
+	color: #fff;
+}
+
 nav li a:hover {
 	color: #fadf8d;
 }
@@ -125,7 +129,7 @@ button{
 	float: left;
 }
 
-.building{
+.building, .ourMinistries{
 	margin-top:2em;
 	margin-bottom:4em;
 }
@@ -236,7 +240,7 @@ button{
 	margin-top: -9em;
 }
 
-.minstries {
+.ministries {
 	margin-top: -2em;
 }
 
@@ -268,7 +272,7 @@ button{
 	margin-bottom: 9em;
 }
 
-#secondaryFeature, #inviteImg {
+#secondaryFeature, #teachingFeature, #inviteImg {
 	margin-top: 2em;
 	margin-left: -0.25%;
 }
@@ -368,6 +372,142 @@ button{
 	padding: 10px 70px;
 	color: #FFF;
 }
+
+/* Small only */ /*iphone6*/
+@media screen and (max-width: 39.9375em) {
+
+	button {
+		margin-left: 9%;
+	}
+
+	iframe {
+		width:354px;
+	}
+
+	.aboutDirections {
+		margin-top:2.5em !important;
+	}
+
+	.beliefs {
+		margin: -160px 11px 0 39px !important;
+	}
+
+	.building {
+		margin-bottom: -2em;
+	}
+
+	.building, .ourMinistries {
+		margin-top: 3em;
+	}
+
+	#directions {
+		margin-top: 12.5em;
+	}
+
+	.events {
+		margin: 3em 0 -6em;
+	}
+
+	.eventsSection2 {
+		margin-top: 2em;
+		margin-bottom: -2em;
+	}
+
+	.expository {
+		margin-top:-5em;
+		font-size:1.5em;
+	}
+
+	#expositoryFeature {
+		margin-top:6.5em;
+	}
+
+	#featuredEvents {
+		margin-bottom:-8em;
+		margin-top: 1em;
+	}
+
+	#featuredVideo {
+		margin: -44em 0 33em 0;
+	}
+
+	#inviteFeature {
+		margin-top: -0.5em;
+	}
+
+	.joinUs {
+		margin-top: 2em;
+	}
+
+	.learnAbout {
+		text-align: center;
+		margin-top: 1em;
+	}
+
+	#mapAddress {
+		margin-left: -0.75em;
+	}
+
+	.ministries {
+		margin-bottom: 2em;
+	}
+
+	.ministries:first-child {
+		margin-top: -1em;
+	}
+
+	.ministries:last-child {
+		margin-bottom: 1em;
+	}
+
+	.ourBeliefs {
+		margin:-6em 0 5.35em;
+		font-size: 1.5em;
+	}
+
+	#ourHistory {
+		margin-top: 1em;
+	}
+
+	.quoteCall {
+		font-size: 1.3em;
+	}
+
+	#secondaryFeature {
+		margin-top: 1em;
+	}
+
+	.SecondaryPageTitle {
+		font-size: 2.7em;
+		margin: -190px 11px 0px 11px;
+	}
+
+	#teachingFeature {
+		margin-top: 16em;
+	}
+
+	.tintedBuilding {
+		height:87%;
+		object-fit: cover;
+	}
+
+	.welcome {
+		margin-top: -22em;
+		margin-left: 1em;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
 
 
 
