@@ -389,7 +389,7 @@ button{
 	}
 
 	iframe {
-		width:354px;
+		width:100%;
 	}
 
 	.aboutDirections {
@@ -503,6 +503,131 @@ button{
 		margin-left: 1em;
 	}
 }
+
+/*Galaxy5*/
+/*@media screen and (min-width: 360px) {
+	.building {
+		margin-top: 2em;
+	}
+
+	button {
+		margin-left: 0;
+	}
+
+	.churchInfo {
+		margin-top: -1.5em;
+	}
+
+	.directionsButton {
+		margin-left: 7%;
+	}
+
+	.expository {
+		font-size: 1.5em;
+		margin-top: -5em;
+	}
+
+	#featuredVideo {
+		margin: -4.5em 0 -7em;
+	}
+
+	.ourBeliefs {
+		font-size: 1.5em;
+		margin: -5em 0 4em;
+	}
+
+	.ourMinistries {
+		margin-top: 2em;
+	}
+
+	#secondaryFeature {
+		margin-top: 0;
+	}
+
+	.SecondaryPageTitle {
+		margin: -4em 1em 0;
+	}
+	.welcome {
+		margin: -26em 8em 10em 3em;
+		font-size: 0.8em;
+	}
+
+}*/
+/*Nexus5x*/
+/*@media screen and (min-width: 412px) {
+	button {
+		margin-left: 4%;
+	}
+
+	.directionsButton {
+		margin-left: 12%;
+	}
+
+	.eventsSection2 {
+		margin-top: 4em;
+	}
+
+	#featuredVideo {
+		margin: -3.5em 0 -8em;
+	}
+
+	.SecondaryPageTitle {
+		margin-left: 57px;
+	}
+
+	#teachingFeature {
+		margin-top: 4em;
+	}
+
+	.welcome {
+		margin: -26em 3em 10em 4em;
+	}
+}*/
+
+/*iPhone5*/
+/*@media screen and (min-width: 320px) {
+	.churchInfo {
+		margin-top: -3em;
+	}
+
+	.directionsButton {
+		margin-left: 6%;
+		padding: 10px 75px;
+	}
+
+	.events:first-child {
+		margin: 4em 0 -3.5em;
+	}
+
+	.events {
+		margin: 0 0 -1.5em;
+	}
+
+	.eventsSection2 {
+		margin-bottom: -0.5em;
+	}
+
+	.events:last-child {
+		margin: 0 0 -4.5em 0;
+	}
+
+	.ministries {
+		margin-bottom: 4em;
+	}
+
+	.ministries:last-child {
+		margin-bottom: -1em;
+	}
+
+	.ourMinistries {
+		margin-top: 2em;
+		margin-bottom: 5em;
+	}
+
+	.title {
+		margin-top: -4.75em;
+	}
+}*/
 
 /* Medium and up */
 @media screen and (min-width: 40em) {}
