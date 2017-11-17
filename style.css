@@ -143,7 +143,7 @@ button{
 	font-size: 1em;
 	color: #336699;
 	text-align: center;
-	margin-top: 1.5em;
+	margin-top: .25em;
 	margin-left: 5%;
 }
 
@@ -208,7 +208,11 @@ button{
 }
 
 #featuredVideo {
-	margin-left: -3.4em;
+	margin: 2em 0 2em -3.4em;
+}
+
+#googleMap {
+	margin-top:-2em;
 }
 
 .grid-container {
@@ -226,6 +230,10 @@ button{
 
 .joinUs h3, .joinUs h5, .joinUs h2 {
 	color: #336699;
+}
+
+.joinUs {
+	margin-top: -2em;
 }
 
 
@@ -263,7 +271,7 @@ button{
 	font-size: .5em;
 }
 
-.resources h3, .resources h5, .expository h3, .expository h2, .ourBeliefs h3, .ourBeliefs h2{
+.resources h3, .resources h5, .learnResources h3, .learnResources h5, .expository h3, .expository h2, .ourBeliefs h3, .ourBeliefs h2, {
 	color: #fff;
 
 }
@@ -376,8 +384,8 @@ button{
 /* Small only */ /*iphone6*/
 @media screen and (max-width: 39.9375em) {
 
-	button {
-		margin-left: 9%;
+	.directionsButton {
+		margin-left: 8%;
 	}
 
 	iframe {
@@ -388,16 +396,16 @@ button{
 		margin-top:2.5em !important;
 	}
 
-	.beliefs {
-		margin: -160px 11px 0 39px !important;
-	}
-
 	.building {
 		margin-bottom: -2em;
 	}
 
 	.building, .ourMinistries {
 		margin-top: 3em;
+	}
+
+	.contact {
+		margin-top: -1em;
 	}
 
 	#directions {
@@ -413,15 +421,6 @@ button{
 		margin-bottom: -2em;
 	}
 
-	.expository {
-		margin-top:-5em;
-		font-size:1.5em;
-	}
-
-	#expositoryFeature {
-		margin-top:6.5em;
-	}
-
 	#eventHeading {
 		margin-top: 9em;
 	}
@@ -432,7 +431,7 @@ button{
 	}
 
 	#featuredVideo {
-		margin: -44em 0 33em 0;
+		margin: -4em 0 -6.5em;
 	}
 
 	#inviteFeature {
@@ -445,7 +444,7 @@ button{
 
 	.learnAbout {
 		text-align: center;
-		margin-top: 1em;
+		margin-top: 2em;
 	}
 
 	#mapAddress {
@@ -468,17 +467,12 @@ button{
 		margin-bottom: 1em;
 	}
 
-	.ourBeliefs {
-		margin:-6em 0 5.35em;
-		font-size: 1.5em;
-	}
-
-	#ourHistory {
-		margin-top: 1em;
-	}
-
 	.quoteCall {
 		font-size: 1.3em;
+	}
+
+	.resources {
+		margin-top: 7em;
 	}
 
 	#secondaryFeature {
@@ -490,9 +484,14 @@ button{
 		margin: -190px 11px 0px 11px;
 	}
 
-	#teachingFeature {
-		margin-top: 16em;
+	.staffBio {
+		margin-top: 5em !important;
 	}
+
+	.bill {
+		margin-top: 9em !important;
+	}
+
 
 	.tintedBuilding {
 		height:87%;
