@@ -114,6 +114,10 @@ button{
 	margin-top: 2em;
 }
 
+.beliefsButton {
+	margin-left:20%;
+}
+
 #beliefFeature {
 	position: absolute;
 	margin-left: 20px;
@@ -252,6 +256,10 @@ button{
 	margin-top: -2em;
 }
 
+.ministriesButton {
+	margin-left: 13%;
+}
+
 .ourBeliefs {
 	margin: -7em 0 6.35em;
 }
@@ -381,12 +389,8 @@ button{
 	color: #FFF;
 }
 
-/* Small only */ /*iphone6*/
+/* Small only */
 @media screen and (max-width: 39.9375em) {
-
-	.directionsButton {
-		margin-left: 8%;
-	}
 
 	iframe {
 		width:100%;
@@ -412,6 +416,10 @@ button{
 		margin-top: 12.5em;
 	}
 
+	.directionsButton {
+		margin-left: 8.5%;
+	}
+
 	.events {
 		margin: 3em 0 -6em;
 	}
@@ -426,12 +434,16 @@ button{
 	}
 
 	#featuredEvents {
-		margin-bottom:-8em;
+		margin-bottom:-9em;
 		margin-top: 1em;
 	}
 
 	#featuredVideo {
 		margin: -4em 0 -6.5em;
+	}
+
+	#googleMap {
+		margin-top: 0;
 	}
 
 	#inviteFeature {
@@ -485,11 +497,11 @@ button{
 	}
 
 	.staffBio {
-		margin-top: 5em !important;
+		margin-top: 6em !important;
 	}
 
 	.bill {
-		margin-top: 9em !important;
+		margin-top: 10em !important;
 	}
 
 
@@ -500,61 +512,214 @@ button{
 
 	.welcome {
 		margin-top: -22em;
-		margin-left: 1em;
+		margin-left: 0.75em;
 	}
 }
 
-/*Galaxy5*/
-/*@media screen and (min-width: 360px) {
+/*iPhone5*/
+@media screen and (max-width: 320px) {
+	.beliefs {
+		margin:-110px 0 0 45px !important;
+		font-size: 2em;
+	}
+
+	button {
+		margin-left: -0.25em;
+	}
+
 	.building {
 		margin-top: 2em;
+	}
+
+	.churchInfo {
+		margin-top: -1em;
+	}
+
+	.contact {
+		margin-top: -1em;
+	}
+
+	.directionsButton {
+		margin-left: 6%;
+		padding: 10px 75px;
+	}
+
+	.events:first-child {
+		margin: 2.5em 0 -3.5em;
+	}
+
+	.events {
+		margin: 0 0 -1.5em;
+	}
+
+	.eventsButton {
+		margin-left:-4px;
+		margin-right:-9px;
+	}
+
+	.eventsSection2 {
+		margin-bottom: -0.5em;
+	}
+
+	.events:last-child {
+		margin: 0 0 -4.5em 0;
+	}
+
+	#featuredVideo {
+		margin: -5em 0 -7.5em;
+	}
+
+	#ourHistory {
+		margin-bottom: -1.5em;
+	}
+
+	.learnResources .title {
+		margin-top: -4em;
+	}
+
+	.ministries {
+		margin-bottom: 2em;
+	}
+
+	.ministries:last-child {
+		margin-bottom: -3em;
+	}
+
+	.ourMinistries {
+		margin-top: 1.5em;
+		margin-bottom: 2em;
+	}
+
+	.resources .title {
+		margin-top: -3.5em;
+	}
+
+	.SecondaryPageTitle {
+		margin-top: -3em;
+		margin-left: 0.5em;
+	}
+
+	.title {
+		margin-top: -4.5em;
+	}
+
+	.welcome {
+		margin: -26em 0.75em 0em 1em;
+		font-size: 0.8em;
+	}
+}
+
+/*iphone 6*/
+@media screen and (min-width: 321px) and (max-width: 375px) {
+	.beliefs {
+		margin: -161px 11px 0 37px;
 	}
 
 	button {
 		margin-left: 0;
 	}
-
-	.churchInfo {
-		margin-top: -1.5em;
-	}
-
 	.directionsButton {
-		margin-left: 7%;
+		margin-left: 9%;
 	}
 
-	.expository {
-		font-size: 1.5em;
-		margin-top: -5em;
-	}
-
-	#featuredVideo {
-		margin: -4.5em 0 -7em;
-	}
-
-	.ourBeliefs {
-		font-size: 1.5em;
-		margin: -5em 0 4em;
-	}
-
-	.ourMinistries {
+	.eventsSection2 {
 		margin-top: 2em;
 	}
 
-	#secondaryFeature {
-		margin-top: 0;
+}
+
+/*iphone 6 plus*/
+@media screen and (min-width: 413px) and (max-width: 414px) {
+	.beliefs {
+		margin: -165px 23px 0 63px !important;
+	}
+
+	.building {
+		margin-top: 2em;
+	}
+
+	button {
+		margin-left: 4%;
+		margin-bottom: 5%;
+	}
+
+	.directionsButton {
+		margin-left: 13%;
+	}
+
+	.eventsSection2 {
+		margin-top: 4em;
+	}
+
+	.expository {
+		margin-top: -5em;
+		font-size: 1.5em;
+	}
+
+	#featuredEvents {
+		margin-bottom: -9em;
+	}
+
+	.ourBeliefs {
+		margin: -5.5em 0 4.35em;
+		font-size: 1.5em;
 	}
 
 	.SecondaryPageTitle {
-		margin: -4em 1em 0;
-	}
-	.welcome {
-		margin: -26em 8em 10em 3em;
-		font-size: 0.8em;
+		margin: -190px 23px 0 30px;
 	}
 
-}*/
-/*Nexus5x*/
-/*@media screen and (min-width: 412px) {
+	.welcome {
+		padding: 2em;
+		margin: -23em 1em 0;
+	}
+
+
+}
+
+/*galaxy S5*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	.beliefs {
+		margin: -153px 11px 0px 35px !important;
+	}
+
+	.building {
+		margin-top: 1.5em;
+	}
+
+	button {
+		margin-left:0;
+	}
+
+	.directionsButton {
+		margin-left: 6%;
+	}
+
+	.learnResources div {
+		margin-bottom: 1.75em;
+	}
+
+	#secondaryFeature {
+		margin-bottom: 0 !important;
+	}
+
+	.welcome {
+
+		margin-left: 0.25em;
+	}
+
+}
+
+/*Nexus5X and 6P*/
+@media screen and (min-width: 376px) and (max-width: 412px) {
+	.beliefs {
+		margin: -165px 17px 0px 56px !important;
+	}
+
+	.building {
+		margin-top: 2em;
+	}
+
 	button {
 		margin-left: 4%;
 	}
@@ -567,67 +732,25 @@ button{
 		margin-top: 4em;
 	}
 
-	#featuredVideo {
-		margin: -3.5em 0 -8em;
+	.expository {
+		margin-top:-5em;
+		font-size: 1.5em;
+	}
+
+	.ourBeliefs {
+		margin: -5.5em 0 4.35em;
+		font-size: 1.5em;
 	}
 
 	.SecondaryPageTitle {
-		margin-left: 57px;
-	}
-
-	#teachingFeature {
-		margin-top: 4em;
+		margin: -190px 17px 0px 24px;
 	}
 
 	.welcome {
-		margin: -26em 3em 10em 4em;
+		margin-left: 1.75em;
 	}
-}*/
+}
 
-/*iPhone5*/
-/*@media screen and (min-width: 320px) {
-	.churchInfo {
-		margin-top: -3em;
-	}
-
-	.directionsButton {
-		margin-left: 6%;
-		padding: 10px 75px;
-	}
-
-	.events:first-child {
-		margin: 4em 0 -3.5em;
-	}
-
-	.events {
-		margin: 0 0 -1.5em;
-	}
-
-	.eventsSection2 {
-		margin-bottom: -0.5em;
-	}
-
-	.events:last-child {
-		margin: 0 0 -4.5em 0;
-	}
-
-	.ministries {
-		margin-bottom: 4em;
-	}
-
-	.ministries:last-child {
-		margin-bottom: -1em;
-	}
-
-	.ourMinistries {
-		margin-top: 2em;
-		margin-bottom: 5em;
-	}
-
-	.title {
-		margin-top: -4.75em;
-	}
-}*/
 
 /* Medium and up */
 @media screen and (min-width: 40em) {}
