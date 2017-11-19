@@ -753,7 +753,109 @@ button{
 
 
 /* Medium and up */
-@media screen and (min-width: 40em) {}
+@media screen and (max-width: 800px) and (min-width: 414px) {
+	.beliefs {
+		margin-left: 35% !important;
+	}
+	#directions {
+		margin: 13em 0 0 0;
+	}
+
+	.directionsButton {
+		margin-top: 3em;
+		padding-left:80px;
+		padding-right:80px;
+	}
+
+	.events .title {
+		font-size: 1em;
+		margin-top: -4em;
+	}
+
+	.eventsButton {
+		margin-left: 18%;
+	}
+
+	.eventsSection2 {
+		margin-top: -1.5em;
+	}
+
+	.eventsSection2 .title {
+		font-size: 1em;
+		margin-top: -3em;
+	}
+
+	#expositoryFeature {
+		margin: -12em -21em 7em 21em;
+	}
+
+	#featuredVideo {
+		margin: 2em 0 0;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	#inviteFeature {
+		margin: -12em 0 0 21em;
+	}
+
+	.joinUs {
+		margin-bottom: -11em;
+	}
+
+	.kids {
+		margin: -3.5em 0 0 1.5em;
+	}
+
+	.learnResources {
+		font-size: .8em;
+	}
+
+	.map iframe, #googleMap iframe {
+		height: 100%;
+	}
+
+	.mapAddress iframe {
+		margin-top: 11em;
+	}
+
+	.ministriesButton, .beliefsButton {
+		margin-left: 27%;
+	}
+
+	.newHereButton {
+		padding-left: 27px;
+		padding-right: 27px;
+		margin-left: -1px;
+	}
+
+	.resources .title {
+		margin-top: -3.25em;
+		font-size: 1.5em;
+	}
+
+	.SecondaryPageTitle {
+		margin: -3.5em 0 0 1.5em;
+	}
+
+	#SermonFeature {
+		margin-top: -11em;
+	}
+
+	.students {
+		margin-left: 0.5em;
+	}
+
+	.title {
+		margin-top: -2.75em;
+	}
+
+	.welcome {
+		margin: -21.5em 42em auto 2em;
+	}
+}
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {}
