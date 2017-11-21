@@ -155,6 +155,14 @@ button{
 	margin-bottom: 4em;
 }
 
+.dropdown.menu .is-active >a{
+  color: #FFB43E;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+	border-color: #fff transparent transparent;
+}
+
 .email {
 	color:#2F6795;
 }
@@ -221,6 +229,12 @@ button{
 
 .grid-container {
 	margin-bottom: 20px;
+}
+
+#hamburger {
+	border: none;
+	padding: 0;
+	margin: 0;
 }
 
 #inviteHeading {
@@ -353,6 +367,20 @@ button{
 	line-height: .9em;
 }
 
+.title-bar {
+	background-color: #336699;
+	margin-top: 1.3em;
+}
+
+.top-bar ul, .top-bar{
+	background-color: #336699;
+	border: none;
+}
+
+.top-bar {
+	margin: 2em 4em 0em -12em ;
+}
+
 .yourLocation {
 	border: none;
 	 background: rgba(47, 103, 149, 0.3);
@@ -444,6 +472,10 @@ button{
 
 	#googleMap {
 		margin-top: 0;
+	}
+
+	.hamburger--margin {
+		margin-bottom: 0em;
 	}
 
 	#inviteFeature {
@@ -578,11 +610,11 @@ button{
 	}
 
 	.ministries {
-		margin-bottom: 2em;
+		margin-bottom: 3.5em;
 	}
 
 	.ministries:last-child {
-		margin-bottom: -3em;
+		margin-bottom: -.5em;
 	}
 
 	.ourMinistries {
@@ -626,6 +658,10 @@ button{
 		margin-top: 2em;
 	}
 
+	.top-bar {
+		margin-left: -13em;
+	}
+
 }
 
 /*iphone 6 plus*/
@@ -667,6 +703,10 @@ button{
 
 	.SecondaryPageTitle {
 		margin: -190px 23px 0 30px;
+	}
+
+	.top-bar {
+		margin-left: -14em;
 	}
 
 	.welcome {
@@ -746,14 +786,17 @@ button{
 		margin: -190px 17px 0px 24px;
 	}
 
+	.top-bar {
+	margin: 2em 4em 0em -13.5em ;
+}
+
 	.welcome {
 		margin-left: 1.75em;
 	}
 }
 
-
-/* Medium and up */
-@media screen and (max-width: 800px) and (min-width: 414px) {
+/* ipad */
+@media screen and (max-width: 768px) and (min-width: 415px) {
 	.beliefs {
 		margin-left: 35% !important;
 	}
@@ -786,7 +829,7 @@ button{
 	}
 
 	#expositoryFeature {
-		margin: -12em -21em 7em 21em;
+		margin: -11.75em -20em 7em 21em;
 	}
 
 	#featuredVideo {
@@ -798,7 +841,7 @@ button{
 	}
 
 	#inviteFeature {
-		margin: -12em 0 0 21em;
+		margin: -11.5em 0 0 20em;
 	}
 
 	.joinUs {
@@ -852,10 +895,29 @@ button{
 		margin-top: -2.75em;
 	}
 
+	.top-bar {
+		margin: 2em 0 0 0;
+	}
+
 	.welcome {
 		margin: -21.5em 42em auto 2em;
 	}
+
 }
+
+
+
+/* Kindle Nexus 10 */
+@media screen and (max-width: 800px) and (min-width: 769px) {
+
+	#inviteFeature {
+		margin: -12em 0 0 21em;
+	}
+
+	}
+
+
+
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {}
@@ -863,8 +925,38 @@ button{
 /* Large and up */
 @media screen and (min-width: 64em) {}
 
-/* Large only */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+/* Large only ipad Pro*/
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+	
+	.directionsButton {
+		width: 100%;
+		padding-left: 69px;
+	}
+
+	iframe{
+		width: 100%;
+	}
+
+	#featuredVideo {
+		margin: 0;
+	}
+
+	.title h5 {
+		font-size: 1em;
+	}
+
+	.title h3 {
+		font-size: .5em;
+	}
+
+	.top-bar {
+		margin: .5em -2em 0em -2em;
+	}
+
+
+
+
+}
 
 
 
